@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://souvik-0612.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://souvik-0612.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-18T17:27:39+00:00</updated><id>https://souvik-0612.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://souvik-0612.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://souvik-0612.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-19T03:37:47+00:00</updated><id>https://souvik-0612.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Statiscally Regularities</title><link href="https://souvik-0612.github.io/blog/2023/Statiscally_Regularities/" rel="alternate" type="text/html" title="Statiscally Regularities" /><published>2023-05-16T21:01:00+00:00</published><updated>2023-05-16T21:01:00+00:00</updated><id>https://souvik-0612.github.io/blog/2023/Statiscally_Regularities</id><content type="html" xml:base="https://souvik-0612.github.io/blog/2023/Statiscally_Regularities/"><![CDATA[<h2 id="a-modified-dice-game">A modified dice game</h2>
-<p>When we roll a dice we can’t say what will be the outcome but what can we say that out of {1, 2, 3, 4, 5, 6} any one will be the outcome.So obviously this is random process. Now let modified the dice.</p>
+<p>When we roll a dice we can’t say what will be the outcome but what can we say that out of {1, 2, 3, 4, 5, 6} any one will be the outcome.So obviously this is random process. Now let modified the dice. It has <strong>four faces</strong> from 1 to 4 for sake of problem(or rather a pattern).</p>
 
 <h2 id="how-to-get-the-radomness-in-computer">How to get the radomness in computer</h2>
+<p>It is computer each and every machinary is work on a algorithm. Purely random number is never possible at least in this classical computer. So random number in computer is nothing but pseudo random number it is based on some unknown algorithm. There is some kind of <strong>seed</strong> which generate a particular pattern of random number. As we will use <code class="language-plaintext highlighter-rouge">python</code> in-buit command to generate random number for now we can forget about how to generate random number which will obey some distribution.</p>
 
 <h2 id="random-experiment-can-give-you-a-regular-pattern">Random experiment can give you a regular pattern</h2>
+<p>To get beutiful pattern we going to use simple our cartesian plane. Let’s say we start from origin i.e, \((x = 0, y = 0)\)  roll the modfied die to see the <em>random</em> output and it will tell us what will be next step of moving our pen. 
+If face of the die is 1 we will move to 
+\begin{equation}
+(0.8x + 0.1, 0.8y + 0.04)
+\end{equation}
+if the face is 2 we will move to 
+\begin{equation}
+(0.5x + 0.25, 0.5y + 0.4)
+\end{equation}</p>
 
 <h2 id="lets-progarm-it">Lets progarm it</h2>
 
-<h2 id="other-such-pattern">Other such pattern</h2>]]></content><author><name></name></author><category term="Math" /><summary type="html"><![CDATA[Randomness may not be random for large number of experiment]]></summary></entry></feed>
+<h2 id="other-such-pattern">Other such pattern</h2>
+
+<!-- bundle exec jekyll serve -->]]></content><author><name></name></author><category term="Math" /><summary type="html"><![CDATA[Randomness may not be random for large number of experiment]]></summary></entry></feed>

@@ -27,6 +27,13 @@ if the face is 2 we will move to
 \end{equation}
 
 ## Lets progarm it
+#### First see how can we generate random number?
+There is in-built function in `numpy` namely `random.choice()` which is my favorite generator becuase you can generate random number as your own distribution. To start write the following code
+``` python
+import numpy as np
+dice_Face = np.random.choice([1, 2, 3, 4])
+print(dice_Face)
+```
 
 ## Other such pattern
 

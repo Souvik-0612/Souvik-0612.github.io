@@ -145,6 +145,12 @@ if the face is 2 we will move to
 \end{equation}</p>
 
 <h2 id="lets-progarm-it">Lets progarm it</h2>
+<h4 id="first-see-how-can-we-generate-random-number">First see how can we generate random number?</h4>
+<p>There is in-built function in <code class="language-plaintext highlighter-rouge">numpy</code> namely <code class="language-plaintext highlighter-rouge">random.choice()</code> which is my favorite generator becuase you can generate random number as your own distribution. To start write the following code</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="n">dice_Face</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">choice</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">dice_Face</span><span class="p">)</span>
+</code></pre></div></div>
 
 <h2 id="other-such-pattern">Other such pattern</h2>
 
